@@ -146,8 +146,8 @@ E-commerce de referencia en Azure con infraestructura en Terraform (Container Ap
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=miguelortiz13&show_icons=true&hide_border=true&theme=github_dark&count_private=true" alt="Estadísticas de GitHub" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miguelortiz13&layout=compact&hide_border=true&theme=github_dark" alt="Lenguajes más usados" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=miguelortiz13&theme=github_dark" alt="Estadísticas de GitHub" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=miguelortiz13&theme=github_dark" alt="Lenguajes con más commits" />
 
 <img src="https://streak-stats.demolab.com/?user=miguelortiz13&hide_border=true&theme=github-dark-blue" alt="Racha de contribuciones" />
 
