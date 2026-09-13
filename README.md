@@ -1,164 +1,154 @@
+<div align="center">
+
+# Miguel Ángel Ortiz Escobar
+
+### DevOps & SRE Engineer
+
+**IaC (Terraform) · Kubernetes · CI/CD · Azure/AWS · Seguridad & Resiliencia**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/miguel-ortiz13)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@miguelldev)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@miguelldev)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/miguelldev_)
+
+</div>
+
 ---
 
-# Miguel Ángel Ortiz Escobar  
+## 👋 Sobre mí
+
+Ingeniero DevOps / SRE en formación continua, enfocado en llevar operaciones de
+infraestructura, aplicaciones y datos a un estado **automatizado, seguro y resiliente**.
+
+Trabajo donde se cruzan desarrollo, operaciones y seguridad: estandarizo
+infraestructura como código, automatizo flujos que antes eran manuales y diseño
+estrategias de recuperación para que los sistemas core de una empresa **no dependan de la suerte**.
+
+## 🛠️ Lo que hago hoy
+
+| Área | Qué hago |
+|---|---|
+| 🏗️ **Infrastructure as Code** | Estandarizo IaC a nivel de producto con **Terraform** y **Bicep** en Azure y AWS: entornos reproducibles, versionados y auditables |
+| ☸️ **Kubernetes** | En especialización activa, aplicando orquestación de contenedores a proyectos reales de infraestructura |
+| 🔄 **CI/CD & Automatización** | Diseño y mantengo workflows en **GitHub Actions** y **Jenkins**; automatizo deploys, backups y validaciones |
+| 🛟 **Disaster Recovery** | Plan de DR end-to-end con backups geo-redundantes y pruebas de restore (SQL, Cosmos DB, Blob, Redis): **≥99% de éxito en restores** |
+| 📈 **Observabilidad** | Monitoreo de bases de datos y recursos core con **New Relic** y **Azure Log Analytics**, detectando anomalías antes de que sean incidentes |
+| 🔐 **Seguridad** | Principios de **ISO/IEC 27001** aplicados a entornos Azure para que la resiliencia también sea segura y cumpla estándares |
+| 🤖 **IA aplicada a DevOps** | Agentes de IA para automatización operativa, combinando mi base en desarrollo (Java/Spring Boot) con infraestructura |
+
+---
+
+## 💼 Experiencia
+
+### IndiGO Tech
+
+**SRE - DR Infrastructure Junior** · abr. 2026 – actualidad
+- Estandaricé infraestructura como código (Terraform) en Azure a nivel de producto, garantizando entornos reproducibles y versionados.
+- Automaticé ciclos de vida de infraestructura y despliegue de servicios con Docker y Azure Web App.
+- Diseñé y mantuve workflows de CI/CD en GitHub Actions y Jenkins, integrando pruebas de resiliencia antes de cada despliegue.
+- Implementé monitoreo proactivo (New Relic, Azure Log Analytics) sobre bases de datos y recursos core.
+- Inicié la exploración de Kubernetes como siguiente capa de estandarización en orquestación de servicios.
+
+**Continuity & Data Lifecycle Engineer** · sept. 2025 – abr. 2026
+- Implementé el plan de recuperación ante desastres de la organización: retención, archivado y legal hold.
+- Orquesté backups geo-redundantes y pruebas de recuperación (SQL, Cosmos DB, Blob, Redis) con ≥99% de éxito en restores y RTO/RPO óptimos.
+- Trabajé con Azure Backup, ASR, Blob Lifecycle, Log Analytics y Sentinel, aportando visibilidad operativa y cumplimiento ISO/IEC 27001.
+
+---
+
+## 🚀 Proyectos destacados
+
+### [devops-sre-lab](https://github.com/miguelortiz13/devops-sre-lab) — Laboratorio DevOps/SRE en la nube
+
+Construyo, paso a paso, todo lo que un equipo de plataforma necesita para operar
+microservicios en producción. Cada proyecto es un repositorio con evidencia.
+
+| # | Proyecto | Tema | Estado |
+|---|---|---|---|
+| P0 | [local-k8s-lab](https://github.com/miguelortiz13/local-k8s-lab) | Kubernetes local reproducible (kind, Helm, Makefile, CI e2e) | ✅ |
+| P1 | infra-azure-terraform | AKS, ACR, Key Vault con Terraform + OIDC | ⬜ siguiente |
+| P2 | online-boutique-ci | Build, Trivy, SBOM, firma con cosign | ⬜ |
+| P3 | platform-gitops | Argo CD, Gateway API, canary | ⬜ |
+| P4 | observability-stack | Prometheus, Loki, Tempo, OpenTelemetry | ⬜ |
+| P5 | sre-reliability-lab | SLOs, error budgets, caos, postmortems | ⬜ |
+| P6 | k8s-security-policies | Kyverno, NetworkPolicies, Falco | ⬜ |
+| P7 | dr-finops | Velero, simulacro de DR, OpenCost | ⬜ |
+| P8 | infra-aws-terraform | La misma plataforma en EKS | ⬜ |
+
+### [cloud-mart-platform](https://github.com/miguelortiz13/cloud-mart-platform)
+E-commerce de referencia en Azure con infraestructura en Terraform (Container Apps, PostgreSQL, Redis, Service Bus, App Gateway) y diagramas de arquitectura generables por agentes de IA.
+
+---
+
+## 🧰 Stack
+
+**Cloud**
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+**IaC & Contenedores**
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Bicep](https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**CI/CD**
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+**Observabilidad & Seguridad**
+![New Relic](https://img.shields.io/badge/New_Relic-1CE783?style=flat-square&logo=newrelic&logoColor=black)
+![Azure Monitor](https://img.shields.io/badge/Log_Analytics-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Microsoft Sentinel](https://img.shields.io/badge/Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+**Datos**
+![SQL Server](https://img.shields.io/badge/Azure_SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![Cosmos DB](https://img.shields.io/badge/Cosmos_DB-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**Lenguajes & Scripting**
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+---
+
+## 📜 Certificaciones
+
+| Certificación | Emisor | Año |
+|---|---|---|
+| AWS Certified AI Practitioner | Amazon Web Services | 2026 |
+| New Relic Verified Foundation (NVF) | New Relic | 2026 |
+| Microsoft Applied Skills: Protección del almacenamiento para Azure Files y Blob Storage | Microsoft | 2025 |
+| Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900) | Microsoft | 2025 |
+| ISO/IEC 27001 Information Security Associate | SkillFront | 2025 |
+| Microsoft Certified: Azure Fundamentals (AZ-900) | Microsoft | 2025 |
+
+## 🎓 Formación
+
+- **Ingeniería de Software** — Universidad Surcolombiana (2022 – 2027)
+- **Diplomado en Arquitectura y Calidad de Software** — Universidad Nacional de Colombia (2025)
+- **Tecnología en Análisis y Desarrollo de Software** — SENA (2022 – 2024)
+- **AWS re/Start, Cloud Computing** — Amazon Web Services (2022)
+- **Técnico laboral en Programación con énfasis en aplicaciones web** — Universidad Autónoma de Bucaramanga (2021 – 2022)
+
+---
+
+## 📊 GitHub
 
 <div align="center">
-🔧 <strong>Java Backend Developer | Cloud & DevOps Enthusiast</strong>  
-🚀 <strong>Apasionado por la ingeniería de software y la arquitectura moderna</strong>  
-🌐 <strong>Colombiano 🇨🇴 | Creador de contenido tech en @miguelldev</strong>
-</div>  
 
-## 📋 Sobre mí  
-Soy un desarrollador backend con fuerte enfoque en **Java + Spring Boot**, apasionado por la creación de soluciones escalables usando servicios en la nube como **AWS** y **Azure**. Actualmente me estoy formando en arquitectura de software y calidad de código, con interés en microservicios, buenas prácticas, testing y automatización.  
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=miguelortiz13&show_icons=true&hide_border=true&theme=github_dark&count_private=true" alt="Estadísticas de GitHub" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miguelortiz13&layout=compact&hide_border=true&theme=github_dark" alt="Lenguajes más usados" />
 
-En paralelo, comparto contenido educativo para futuros desarrolladores en redes como YouTube, TikTok y LinkedIn bajo mi marca **@miguelldev**.
+<img src="https://streak-stats.demolab.com/?user=miguelortiz13&hide_border=true&theme=github-dark-blue" alt="Racha de contribuciones" />
 
-### 💻 Habilidades principales:  
-- Diseño web creativo e innovador  
-- Gestión y mantenimiento de servidores Linux  
-- Desarrollo frontend y backend con metodologías ágiles (Scrum)  
-- Implementación de servicios en la nube para almacenamiento, redes y bases de datos  
-
-
----
-
-
-##  💻 Tecnologias y herramientas   
-<table><tr><td valign="top" width="33%">
-
-### Frontend  
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
-![Adobe Dreamweaver](https://img.shields.io/badge/Adobe%20Dreamweaver-FF61F6.svg?style=for-the-badge&logo=Adobe%20Dreamweaver&logoColor=white)
-
-</td><td valign="top" width="33%">
-
-### Backend  
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/springboot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
-
-</td><td valign="top" width="33%">
-
-### Herramientas  
-![Linux](https://img.shields.io/badge/linux-%23000000.svg?style=for-the-badge&logo=linux&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
-![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) 
-![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) 
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-</td></tr></table>  
-
-
----
-
-
-## 🎓 Educación  
-- **Ingeniería de Software** – Universidad Surcolombiana (USCO), 2022 - Actualmente  
-- **Técnico en Análisis y Desarrollo de Software** – SENA, Bogotá, 2022 - Actualmente
-- **Diplomado en Arquitectura y Calidad de Software** – Universidad Nacional - Actualmente
-- **AWS Cloud Practitioner** – AWS Re/Start, Amazon Web Services (AWS), 2022  
-- **Tecnico laborar Desarrollo Web (Frontend & Backend)** – Misión TIC, Bogotá, 2020-2021  
-
-
----
-
-
-## 🚀 Proyectos y Experiencia  
-
-### **Desarrollador Web Voluntario**  
-- **Voluntariado en Ambientes Sostenibles, Cali, 2021**  
-  - Diseño de páginas web y estrategias de marketing digital
- 
-### **Proyecto MarketCali**  
-- **Sistema administrativo para supermercados con módulos de ventas, inventario, usuarios y facturación**  
-  - Tecnologías: Java, Spring Boot, MySQL, React  
-
-### **Proyecto lovelyCats**  
-- **Adopcion y venta de productos para mascotas**  
-  - Tecnologías: Java, Spring Boot, PostgreSQL, JSP 
-
-### **Implementacion de servicios web**  
-- Desarrollo de aplicaciones web interactivas con **Java** y **SpringBoot**  
-- Implementación de servicios en **AWS** para cómputo, redes y almacenamiento
-
-### **Monitor Universitario**  
-- **Logica de programacion con Python**  
-  - Ejercicios y recursos usados para enseñar programación básica a estudiantes de Ingenieria.  
-
-
-
----
-
-
-## 📚 Certificaciones   
-- AWS Cloud Practitioner – Amazon Web Services
-- Developing Applications in Python on AWS – AWS
-- Azure Fundamentals AZ-900 – Microsoft / Platzi
-- Curso de Introducción a Java SE – Platzi
-- Administración de Servidores Linux – Platzi
-- Fundamentos de Arquitectura de Software – Platzi
-- Curso Profesional de Git y GitHub – Platzi
-- Curso Introducción al Desarrollo Backend – Platzi
-
-Disponibles más de 50 certificaciones adicionales en tecnologías de programación, computación en la nube y habilidades blandas.
-
-  
-
----
-
-
-## 🏅📈 Estadisticas Github  
-
-<p align="center">
-  <table align="center">
-    <tr border="none">
-      <td width="50%" align="center">
-        <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=miguelldev-code&theme=shades-of-purple&hide_border=true&include_all_commits=false&count_private=false" />
-        <br></br>
-        <img  src="https://github-readme-streak-stats.herokuapp.com/?user=miguelldev-code&theme=shades-of-purple&hide_border=true" /> 
-        </td>
-        <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=miguelldev-code&layout=compact&theme=shades-of-purple&hide_border=true" />
-      </td>
-    </tr>
-  </table>
-</p>
-
-  
----
-
-
-##  ☁️ Conecta conmigo
- <div align="center">
-  <a href="https://youtube.com/@miguelldev" target="_blank">
-  <img src=https://img.shields.io/badge/YouTube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
-  </a>
-  <a href="https://github.com/miguelldev-code" target="_blank">
-  <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-  </a>
-  <a href="https://www.tiktok.com/@miguelldev" target="_blank">
-  <img src=https://img.shields.io/badge/tiktok-%2324292e.svg?&style=for-the-badge&logo=tiktok&logoColor=white alt=tiktok style="margin-bottom: 5px;" />
-  </a>
-  <a href="https://linkedin.com/in/miguel-ortiz13" target="_blank">
-  <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-  </a>
-  <a href="https://x.com/miguelldev_" target="_blank">
-  <img src=https://img.shields.io/badge/X-black.svg?&style=for-the-badge&logo=X&logoColor=white alt=x style="margin-bottom: 5px;" />
-  </a>
-  
-  </div>  
-
-  
----
-
+</div>
